@@ -1,0 +1,43 @@
+.body_venom{
+    background-color: red;
+}
+.grid-layout-venom{
+    display: grid;
+    grid-template-areas: 'top top top'
+                         'bot bot bot';
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-rows: auto auto;
+    align-items: center;
+    padding-bottom: 180px;
+}
+.venom1{
+    background-color: black;
+    color: white;
+    grid-area: top;
+    border: 1px solid rgb(255, 255, 255);
+}
+.venom2{
+    background-color: black;
+    grid-area: bot;
+    margin: 10px;
+    text-align: center;
+    grid-area: bot;
+    grid-column: 1/4;
+    border: 1px solid rgb(255, 255, 255);
+}
+.ul_venom{
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+}
+.li_venom_titulo{
+    float: right;
+    margin-top: 10px;
+    margin-left: 200px;
+}
+.li_btn_venom{
+    float: left;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-right: 250px;
+}

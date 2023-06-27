@@ -1,0 +1,12 @@
+#img{
+    margin-top: 10px;
+    height: 200px;
+    width: 300px;
+    object-fit: contain
+}
+#Card{
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}

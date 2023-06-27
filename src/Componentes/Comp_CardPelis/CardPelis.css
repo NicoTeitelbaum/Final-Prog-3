@@ -1,0 +1,57 @@
+img{
+    height: 300px;
+    width: 100px;
+    object-fit: contain
+}
+#grupo1{
+    background-color: black;
+    text-align: center;
+    color:white;
+    border-color: white;
+    height: 580px;
+}
+#grupo2{
+    background-color: black;
+    text-align: center;
+    color: white;
+    border-color: white;
+    height: 580px;
+}
+#grupo3{
+    background-color: black;
+    text-align: center;
+    color: white;
+    border-color: white;
+    height: 580px;
+}
+#grupo4{
+    background-color: black;
+    text-align: center;
+    color: white;
+    border-color: white;
+    height: 580px;
+}
+#grupo5{
+    background-color: black;
+    text-align: center;
+    color: white;
+    border-color: white;
+    height: 580px;
+}
+#grupo6{
+    background-color: black;
+    text-align: center;
+    color: white;
+    border-color: white;
+    height: 580px;
+}
+#cartas{
+    border-radius: 10px;
+}
+.carrusel{
+    height: 580px;
+}
+#boton{
+    background-color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

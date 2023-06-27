@@ -1,0 +1,43 @@
+.body_uncharted{
+    background-color: red;
+}
+.grid-layout-uncharted{
+    display: grid;
+    grid-template-areas: 'top top top'
+                         'bot bot bot';
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-rows: auto auto;
+    align-items: center;
+    padding-bottom: 180px;
+}
+.uncharted1{
+    background-color: black;
+    color: white;
+    grid-area: top;
+    border: 1px solid rgb(255, 255, 255);
+}
+.uncharted2{
+    background-color: black;
+    grid-area: bot;
+    margin: 10px;
+    text-align: center;
+    grid-area: bot;
+    grid-column: 1/4;
+    border: 1px solid rgb(255, 255, 255);
+}
+.ul_uncharted{
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+}
+.li_uncharted_titulo{
+    float: right;
+    margin-top: 10px;
+    margin-left: 200px;
+}
+.li_btn_uncharted{
+    float: left;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-right: 250px;
+}
