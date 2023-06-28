@@ -1,6 +1,7 @@
 import Button from 'react-bootstrap/Button';
 import { useEffect , useState} from 'react';
 import './Menu.css';
+import { Link } from 'react-router-dom';
 
 
 
@@ -60,6 +61,7 @@ function Menu() {
       <Button variant="primary" size="lg" className='btn_menu' onClick={handleClickSize}>
         Cambiar tamaño de la fuente
       </Button>
+      <Link to='/rick-and-morty'><Button variant="primary" size="lg" className='btn_menu'>Rick and Morty info</Button></Link>
     </>
   );
 }

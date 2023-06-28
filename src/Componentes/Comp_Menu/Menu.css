@@ -22,6 +22,7 @@
     align-items: center;
 }
 .btn_menu{
+    margin-left: 15px;
     margin-top: 30px;
     margin-bottom: 15px;
     display: inline;

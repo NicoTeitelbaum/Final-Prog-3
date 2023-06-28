@@ -8,6 +8,7 @@ import Uncharted from "./Componentes/Comp_Uncharted/Uncharted";
 import SpaceJam from "./Componentes/Comp_SpaceJam/SpaceJam";
 import SuperMascotas from "./Componentes/Comp_SuperMascotas/SuperMascotas";
 import VenomPeli from "./Componentes/Comp_Venom/VenomPeli";
+import AxioRick from "./Componentes/Comp_AxioRick/AxioRick";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/super-mascotas" element={<SuperMascotas/>}></Route>
           <Route path="/uncharted" element={<Uncharted/>}></Route>
           <Route path="/venom" element={<VenomPeli/>}></Route>
+          <Route path="/rick-and-morty" element={<AxioRick/>}></Route>
           <Route path="/" element={<Login/>}></Route>
           <Route path="/registro" element={<Registro/>}></Route>
           <Route path="*" element={<h1>404</h1>}></Route>
