@@ -2,7 +2,7 @@
     margin-top: 10px;
     height: 200px;
     width: 300px;
-    object-fit: contain
+    object-fit: contain /* Hace que el contenidose ajuste dentro del contenedor manteniendo su relación de aspecto original*/
 }
 #Card{
     text-align: center;

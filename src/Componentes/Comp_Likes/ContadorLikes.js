@@ -10,7 +10,8 @@ function ContadorLikes(){
     const handleClick = () => {setCount1 (count1 + 1)}
     const handleClick2 = () => {setCount2 (count2 + 1)}
     const [backgroundColor, setBackgroundColor] = useState("black");
-    const handleClickColor = () => {setBackgroundColor ("cyan")}
+    const handleClickColor = () => {setBackgroundColor ("rgb(54, 65, 113)")}
+    /*cambio el color de todo el bloque inferior de la pagina */
    
     useEffect(()=>{
         document.getElementById('bloque1').style.backgroundColor=backgroundColor;

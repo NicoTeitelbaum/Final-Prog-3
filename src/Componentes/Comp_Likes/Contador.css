@@ -6,13 +6,15 @@
 }
 .bloque{
     text-align: center;
-    color: white;
-    border: 1px solid white;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
     font-family: cursive;
     
 }
 #btnColor{
     margin-top: 45px;
+    
+    
 }
 #btnPar{
     margin-top: 10px;

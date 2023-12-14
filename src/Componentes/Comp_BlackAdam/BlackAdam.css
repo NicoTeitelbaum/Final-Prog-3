@@ -1,10 +1,10 @@
 .body_black{
-    background-color: red;
+    background-color: rgb(54, 65, 113);
 }
 .grid-layout-black{
     display: grid;
     grid-template-areas: 'top top top'
-                         'bot bot bot';
+                         'bot bot bot'; /* Define áreas en la cuadrícula llamadas "top" y "bot". Los repetidos indican que  deben abarcar las 3 col.*/
     grid-template-columns: 33.3% 33.3% 33.3%;
     grid-template-rows: auto auto;
     align-items: center;
@@ -31,7 +31,7 @@
     padding: 0;
 }
 .li_black_titulo{
-    float: right;
+    float: right; /* elemento flote hacia la derecha dentro del div.*/
     margin-top: 10px;
     margin-left: 200px;
 }

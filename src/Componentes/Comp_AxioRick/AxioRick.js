@@ -22,10 +22,10 @@ function AxioRick() {
   return (
   <body className='body_axio'>
     <div className='contenedor'>
-    <Link to='/pagina-principal'><Button className='btn_axio' variant="info">Salir</Button></Link>      
+    <Link to='/pagina-principal'><Button className='btn_axio'>Salir</Button></Link>      
     <h1 className='h1-contenedor'>Rick and Morty</h1>
       <Carousel interval={null}>
-        {[0, 3].map((index) => (
+        {[0, 3].map((index) => (  /*Se utiliza un bucle map para generar dos diapositivas en el carrusel.*/
           <Carousel.Item key={index}>
             <div className="cartas-contenedor">
               {caracteres.slice(index, index + 3).map((car) => (

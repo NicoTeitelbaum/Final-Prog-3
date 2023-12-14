@@ -11,7 +11,8 @@ function Login(){
   const navigate = useNavigate();
 
   const handleSubmitLogin = (e) => {
-    e.preventDefault();
+    e.preventDefault(); // Evita que el formulario se envíe de la manera predeterminada (recargando la página)//
+
 
     const compUsu = localStorage.getItem('username');
     const compPass = localStorage.getItem('password');
